@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int printNum(int i,int n)
+{
+if(i>n)
+return;
+cout<<i<<endl;
+print(i+1,n);
+}
+int main()
+{
+int t;
+int i = 0;
+cin>>t;
+printNum(i,t);
+}
